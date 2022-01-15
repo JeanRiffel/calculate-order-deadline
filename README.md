@@ -7,8 +7,3 @@ Install
 yarn add typescript koa @koa/router
 
 yarn add nodemon @types/node @types/node @types/typescript jest @types/jest -D
-
-
-
-
-
