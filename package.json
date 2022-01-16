@@ -1,7 +1,8 @@
 {
   "scripts": {
     "test": " tsc && jest /dist ",
-    "start:server": "nodemon -r dotenv/config src/infra/api/v1/index.ts "
+    "start:server": "nodemon -r dotenv/config src/infra/api/v1/index.ts ",
+    "start:prod": "nodemon -r dotenv/config dist/src/infra/api/v1/index.js "
   },
   "dependencies": {
     "@koa/router": "^10.1.1",
