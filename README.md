@@ -36,3 +36,15 @@ Type the following command to generate  the  tsconfing.json
         "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
         }
     }
+
+
+Docker 
+
+   Building
+   docker build . -t calculate-order-deadline
+
+   Running
+   docker run -d -p 3001:3001 --name calculate-order-deadline calculate-order-deadline 
+
+
+
