@@ -4,12 +4,12 @@ The goal of this project is calculate order deadline, based on postal code as or
 
 List of Packages:
 
-   -> typescript 
-   -> koa 
-   -> @koa/router
-   -> @types/node 
-   -> @types/node 
-   -> @types/typescript 
+   - typescript 
+   - koa 
+   - @koa/router
+   - @types/node 
+   - @types/node 
+   - @types/typescript 
    - jest 
    - @types/jest
 
