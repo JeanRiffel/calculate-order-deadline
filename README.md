@@ -7,9 +7,9 @@ List of Packages:
    -> typescript 
    -> koa 
    -> @koa/router
-   - @types/node 
-   - @types/node 
-   - @types/typescript 
+   -> @types/node 
+   -> @types/node 
+   -> @types/typescript 
    - jest 
    - @types/jest
 
