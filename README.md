@@ -2,8 +2,7 @@ Calculate Order Deadline
 
 The goal of this project is calculate order deadline, based on postal code as origin and a postal code as destination.
 
-List of Packages
-
+List of Packages:
 
    - typescript 
    - koa 
