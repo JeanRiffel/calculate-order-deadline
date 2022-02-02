@@ -18,9 +18,7 @@ mainRoute.post('/order', async (ctx)=>{
     await jsonCache.set(orderId.toString() ,  ctx.request.body);
     
     const orderItems = new OrderItems( orderId, description, price  );
-
-
-    
+    //Test    
     const orderController = new OrderController(orderItems);
     ctx.response.body = "Order number is ".concat( orderId.toString());
 } );
