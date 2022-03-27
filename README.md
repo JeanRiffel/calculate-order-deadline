@@ -15,36 +15,42 @@ List of Packages:
 
 The project is using Node v14.18.3, you can use nvm to set the version.
 
-Install all packages
+Install all packages:
 
-   - yarn install
+   ``` 
+     yarn install 
+   ```
 
-Type the following command to generate  the  tsconfing.json
-    
-    - tsc --init 
-       
-    After the command had being executed let's configure the file tsconfing.json in this way.
-
-    {
+Type the following command to generate the tsconfing.json
+   ``` 
+    tsc --init 
+   ```
+After the command had being executed let's configure the file tsconfing.json in this way.
+   ```
+   {
         "compilerOptions": {
-        "target": "es6",                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-        "module": "commonjs",             /* Specify what module code is generated. */
-        "outDir": "./dist",               /* Specify an output folder for all emitted files. */
-        "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
-        "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
-        "strict": true,                                      /* Enable all strict type-checking options. */
-        "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+        "target": "es6",                  
+        "module": "commonjs",             
+        "outDir": "./dist",               
+        "esModuleInterop": true,          
+        "forceConsistentCasingInFileNames": true, 
+        "strict": true,                           
+        "skipLibCheck": true                      
         }
     }
-
+``` 
 
 Docker 
 
    Building
+   ```
    docker build . -t calculate-order-deadline
-
+   ```
+   
    Running
+   ```
    docker run -d -p 3001:3001 --name calculate-order-deadline calculate-order-deadline 
+   ```
 
 
 
